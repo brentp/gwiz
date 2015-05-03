@@ -80,4 +80,5 @@ namespace gwiz
 		uint32_t totalCount = this->m_total_allele_count + this->m_total_allele_count_low_quality;
 		out << this->m_chrom << "\t" << getPosition() << "\t.\t" << alleleString() << "\t0\t" << passFail << "\tDP=" << this->m_total_allele_count << ";DP4=" << getAlleleCountString() << ";TC=" << totalCount << std::endl;
 	}
+
 }

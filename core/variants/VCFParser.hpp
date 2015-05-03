@@ -26,21 +26,30 @@ namespace gwiz
 			{
 				using namespace boost::spirit;
 
-				std::string refAltMatchString = "actgnACTGN";
-				auto refAltMatch = (+qi::char_(refAltMatchString) >> *(',' >> +qi::char_(refAltMatchString))) || +qi::graph;
+				// std::string refAltMatchString = "actgnACTGN";
+				std::string dnaMatchString = "actgnACTGN";
+				// std::string refAltMatchString = "a-zA-Z_0-9";
+				// auto matcher = (+qi::char_(dnaMatchString) >> *(',' >> +qi::char_(dnaMatchString))) | (+qi::graph % ',');
+				auto matcher = (+qi::char_(dnaMatchString) % ',') | (+qi::graph % ',');
+				// auto test = (-qi::lit("<") >> +qi::char_(refAltMatchString, ":") >> -qi::lit(">") >> *(',' >> -qi::lit("<") >> +qi::char_(refAltMatchString, ":") >> -qi::lit(">")));
+				// std::string refAltMatchString = "actgnACTGN_0-9";
+				// auto refAltMatch = (+qi::char_(refAltMatchString) >> *(',' >> +qi::char_(refAltMatchString))) | (qi::lit("<") >> +qi::char_("CN_0-9") >> qi::lit("<"));
+				// auto refAltMatch = test;
 				tab = qi::lit('\t');
 				chrom %= +qi::graph;
 				pos %= qi::uint_;
 				id %= +qi::graph;
-				ref %= refAltMatch;
-				alt %= refAltMatch;
+				// ref %= refAltMatch;
+				// alt %= refAltMatch;
+				ref %= matcher;
+				alt %= matcher;
 				qual = +qi::graph;
 				filter = +qi::graph;
 
 				info = pair >> *((qi::lit(';') | '&') >> pair);
 				pair = key >> -('=' >> value);
-				key = qi::char_("a-zA-Z_0-9\\./(),") >> *qi::char_("a-zA-Z_0-9\\./(),");
-				value = +qi::char_("a-zA-Z_0-9\\./(),");
+				key = qi::char_("a-zA-Z_0-9\\./(),-") >> *qi::char_("a-zA-Z_0-9\\./(),-");
+				value = +qi::char_("a-zA-Z_0-9\\./(),-");
 				start %= chrom > tab > pos > tab > id > tab > ref > tab > alt > tab > qual > tab > filter > tab > info;
 
 				// names for error output

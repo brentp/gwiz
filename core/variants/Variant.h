@@ -43,13 +43,6 @@ namespace gwiz
 			}
 			variantPtr->m_variant_type = VARIANT_TYPE::SNP;
 			/*
-			auto svTypeIter = this->m_info_fields.find("SVTYPE");
-			if (svTypeIter != this->m_info_fields.end())
-			{
-
-			}
-			*/
-			/*
 			for (auto alternateString : variantPtr->getAlt())
 			{
 				variantPtr->setVCFLineFromAlternate(alternateString, vcf_line, end_line - vcf_line);
@@ -57,6 +50,49 @@ namespace gwiz
 			*/
 			variantPtr->initializeAlleleCounters();
 			return variantPtr;
+		}
+
+		inline bool processSV(IReference::SharedPtr referencePtr)
+		{
+			auto cn0AltIter = std::find(this->m_alt.begin(), this->m_alt.end(), "<CN0>");
+			auto endInfoIter = this->m_info_fields.find("END");
+			std::string endResult = "none";
+			/*
+			for (auto iter : this->m_info_fields)
+			{
+				std::cout << iter.first << " " << iter.second << std::endl;
+			}
+			exit(0);
+			*/
+			/* std::string endExists = (endInfoIter == this->m_info_fields.end()) ? "false" : "true"; */
+			/* std::cout << this->m_position << " " << endResult << " "  << endExists; */
+			if (cn0AltIter != this->m_alt.end() && endInfoIter != this->m_info_fields.end())
+			{
+				position endPosition = atoi(endInfoIter->second.c_str());
+				if (endPosition > referencePtr->getRegion()->getEndPosition()) { return false; }
+				/* std::string endPosition = this->m_info_fields["END"]; */
+				this->m_alt.clear();
+				this->m_alt.push_back(this->getRef());
+				this->m_ref.clear();
+				const char* reference = referencePtr->getSequence() + (this->m_position - referencePtr->getRegion()->getStartPosition());
+				size_t alleleSize = endPosition - this->m_position;
+				size_t offset =  referencePtr->getRegion()->getStartPosition() - this->m_position;
+				/* std::cout << m_position << std::endl; */
+				/*
+				std::cout << "-------" << std::endl;
+				std::cout << referenceAllele << std::endl;
+				std::cout << "-------" << std::endl;
+				*/
+				this->m_ref.emplace_back(std::string(reference, alleleSize));
+			}
+			else
+			{
+				for (auto& alt : this->m_alt)
+				{
+					/* if (alt.c_str()[0] == '<') { return false; } */
+				}
+			}
+			return true;
 		}
 
 		inline void setVCFLineFromAlternate(const std::string& alt, const char* vcfLine, size_t length)
