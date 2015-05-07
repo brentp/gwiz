@@ -1,0 +1,913 @@
+The system is: Darwin - 14.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2015-05-06 10:36:48.243 xcodebuild[93606:1500127]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7ff20e967fb0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7ff20e96af40>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+
+Ld CompilerIdC normal i386
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.10 -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC
+    /bin/sh -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2015-05-06 10:36:49.465 xcodebuild[93618:1500218]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f82ee047cd0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f82ee05cb40>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal i386
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.10 -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX
+    /bin/sh -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3107464117" "-configuration" "Debug"
+2015-05-06 10:36:50.046 xcodebuild[93635:1500275]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7ff61b51e0f0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7ff61b514470>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:50.066 xcodebuild[93635:1500256] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3107464117"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec3107464117 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/cmTryCompileExec3107464117.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec3107464117 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/cmTryCompileExec3107464117.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3107464117.build/Objects-normal/x86_64/cmTryCompileExec3107464117_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3107464117
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3837876921" "-configuration" "Debug"
+2015-05-06 10:36:50.510 xcodebuild[93649:1500315]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fcc2d854c70>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fcc2d857cb0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:50.535 xcodebuild[93649:1500307] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3837876921"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec3837876921 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec3837876921 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921
+Apple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921 -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-242
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib
+Framework search paths:
+	/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3837876921" "-configuration" "Debug"]
+  ignore line: [2015-05-06 10:36:50.510 xcodebuild[93649:1500315]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79]
+  ignore line: [Details:  Running against an old version of MobileDevice]
+  ignore line: [ some interaction with proxied devices may be unavailable.]
+  ignore line: [Object:   <DTDKRemoteDeviceDataListener: 0x7fcc2d854c70>]
+  ignore line: [Method:   -listenerThreadImplementation]
+  ignore line: [Thread:   <NSThread: 0x7fcc2d857cb0>{number = 2, name = (null)}]
+  ignore line: [Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.]
+  ignore line: [2015-05-06 10:36:50.535 xcodebuild[93649:1500307] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3837876921")]
+  ignore line: [ this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.]
+  ignore line: [=== BUILD TARGET cmTryCompileExec3837876921 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec3837876921 normal x86_64]
+  ignore line: [    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.10]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921]
+  ignore line: [Apple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)]
+  ignore line: [Target: x86_64-apple-darwin14.0.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921 -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921 -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921 -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3837876921] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3837876921.build/Objects-normal/x86_64/cmTryCompileExec3837876921_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  Framework search paths: [;/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  collapse framework dir [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2151306059" "-configuration" "Debug"
+2015-05-06 10:36:50.989 xcodebuild[93663:1500353]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f99ef052b20>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f99ef054420>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:51.009 xcodebuild[93663:1500346] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec2151306059"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec2151306059 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/cmTryCompileExec2151306059.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec2151306059 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/cmTryCompileExec2151306059.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2151306059.build/Objects-normal/x86_64/cmTryCompileExec2151306059_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2151306059
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1581541908" "-configuration" "Debug"
+2015-05-06 10:36:51.432 xcodebuild[93677:1500392]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fe2b3ae0b90>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fe2b3ae3ba0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:51.457 xcodebuild[93677:1500385] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1581541908"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec1581541908 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec1581541908 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908
+Apple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908 -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-242
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib
+Framework search paths:
+	/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1581541908" "-configuration" "Debug"]
+  ignore line: [2015-05-06 10:36:51.432 xcodebuild[93677:1500392]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79]
+  ignore line: [Details:  Running against an old version of MobileDevice]
+  ignore line: [ some interaction with proxied devices may be unavailable.]
+  ignore line: [Object:   <DTDKRemoteDeviceDataListener: 0x7fe2b3ae0b90>]
+  ignore line: [Method:   -listenerThreadImplementation]
+  ignore line: [Thread:   <NSThread: 0x7fe2b3ae3ba0>{number = 2, name = (null)}]
+  ignore line: [Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.]
+  ignore line: [2015-05-06 10:36:51.457 xcodebuild[93677:1500385] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1581541908")]
+  ignore line: [ this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.]
+  ignore line: [=== BUILD TARGET cmTryCompileExec1581541908 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec1581541908 normal x86_64]
+  ignore line: [    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.10]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908]
+  ignore line: [Apple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)]
+  ignore line: [Target: x86_64-apple-darwin14.0.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908 -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908 -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908 -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1581541908] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1581541908.build/Objects-normal/x86_64/cmTryCompileExec1581541908_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  Framework search paths: [;/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  collapse framework dir [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2547468505" "-configuration" "Debug"
+2015-05-06 10:36:51.966 xcodebuild[93691:1500431]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fc0037a1540>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fc0037a2650>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:51.985 xcodebuild[93691:1500423] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec2547468505"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec2547468505 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/cmTryCompileExec2547468505.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec2547468505 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/cmTryCompileExec2547468505.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2547468505.build/Objects-normal/x86_64/cmTryCompileExec2547468505_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2547468505
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec458212796" "-configuration" "Debug"
+2015-05-06 10:36:52.446 xcodebuild[93705:1500468]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f8d829e0de0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f8d829e3e10>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:52.465 xcodebuild[93705:1500461] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec458212796"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec458212796 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/cmTryCompileExec458212796.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec458212796 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/cmTryCompileExec458212796.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec458212796.build/Objects-normal/x86_64/cmTryCompileExec458212796_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec458212796
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2942711732" "-configuration" "Debug"
+2015-05-06 10:36:52.899 xcodebuild[93719:1500505]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fb2880205b0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fb2880235f0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:52.918 xcodebuild[93719:1500499] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec2942711732"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec2942711732 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/cmTryCompileExec2942711732.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec2942711732 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/cmTryCompileExec2942711732.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2942711732.build/Objects-normal/x86_64/cmTryCompileExec2942711732_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2942711732
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec760409602" "-configuration" "Debug"
+2015-05-06 10:36:53.348 xcodebuild[93733:1500543]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fbb3d8119f0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fbb3a7557a0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:53.358 xcodebuild[93733:1500536] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec760409602"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec760409602 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/cmTryCompileExec760409602.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/CMAKE_SIZEOF_INT.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_INT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/CMAKE_SIZEOF_INT.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/CMAKE_SIZEOF_INT.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_INT.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/CMAKE_SIZEOF_INT.o
+
+Ld Debug/cmTryCompileExec760409602 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/cmTryCompileExec760409602.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec760409602.build/Objects-normal/x86_64/cmTryCompileExec760409602_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec760409602
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec4246199162" "-configuration" "Debug"
+2015-05-06 10:36:53.775 xcodebuild[93747:1500580]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fc093e9cdb0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fc093e9fde0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:53.798 xcodebuild[93747:1500573] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec4246199162"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec4246199162 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/cmTryCompileExec4246199162.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/CMAKE_SIZEOF_LONG.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_LONG.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/CMAKE_SIZEOF_LONG.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/CMAKE_SIZEOF_LONG.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_LONG.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/CMAKE_SIZEOF_LONG.o
+
+Ld Debug/cmTryCompileExec4246199162 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/cmTryCompileExec4246199162.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4246199162.build/Objects-normal/x86_64/cmTryCompileExec4246199162_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4246199162
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1324683351" "-configuration" "Debug"
+2015-05-06 10:36:54.223 xcodebuild[93761:1500618]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fc17e0ad920>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fc17e0b0970>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:54.242 xcodebuild[93761:1500611] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1324683351"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec1324683351 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/cmTryCompileExec1324683351.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/CMAKE_SIZEOF_VOID_P.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_VOID_P.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/CMAKE_SIZEOF_VOID_P.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/CMAKE_SIZEOF_VOID_P.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_VOID_P.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/CMAKE_SIZEOF_VOID_P.o
+
+Ld Debug/cmTryCompileExec1324683351 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/cmTryCompileExec1324683351.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1324683351.build/Objects-normal/x86_64/cmTryCompileExec1324683351_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1324683351
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of char passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1888699577" "-configuration" "Debug"
+2015-05-06 10:36:54.667 xcodebuild[93775:1500654]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fc48be9bb80>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fc48be9eb40>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:54.688 xcodebuild[93775:1500647] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1888699577"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec1888699577 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/cmTryCompileExec1888699577.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/CMAKE_SIZEOF_CHAR.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_CHAR.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/CMAKE_SIZEOF_CHAR.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/CMAKE_SIZEOF_CHAR.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_CHAR.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/CMAKE_SIZEOF_CHAR.o
+
+Ld Debug/cmTryCompileExec1888699577 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/cmTryCompileExec1888699577.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1888699577.build/Objects-normal/x86_64/cmTryCompileExec1888699577_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1888699577
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec555755020" "-configuration" "Debug"
+2015-05-06 10:36:55.121 xcodebuild[93789:1500692]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f9b24f62210>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f9b24f651d0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:55.142 xcodebuild[93789:1500683] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec555755020"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec555755020 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/cmTryCompileExec555755020.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/CMAKE_SIZEOF_SHORT.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_SHORT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/CMAKE_SIZEOF_SHORT.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/CMAKE_SIZEOF_SHORT.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_SHORT.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/CMAKE_SIZEOF_SHORT.o
+
+Ld Debug/cmTryCompileExec555755020 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/cmTryCompileExec555755020.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec555755020.build/Objects-normal/x86_64/cmTryCompileExec555755020_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec555755020
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3658345505" "-configuration" "Debug"
+2015-05-06 10:36:55.576 xcodebuild[93803:1500729]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fe493f033f0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fe493f063e0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:55.596 xcodebuild[93803:1500722] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3658345505"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec3658345505 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/cmTryCompileExec3658345505.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/CMAKE_SIZEOF_FLOAT.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_FLOAT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/CMAKE_SIZEOF_FLOAT.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/CMAKE_SIZEOF_FLOAT.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_FLOAT.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/CMAKE_SIZEOF_FLOAT.o
+
+Ld Debug/cmTryCompileExec3658345505 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/cmTryCompileExec3658345505.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3658345505.build/Objects-normal/x86_64/cmTryCompileExec3658345505_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3658345505
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3795604420" "-configuration" "Debug"
+2015-05-06 10:36:56.034 xcodebuild[93817:1500777]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fd9dc01a080>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fd9dc01d0a0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:56.054 xcodebuild[93817:1500759] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3795604420"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec3795604420 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/cmTryCompileExec3795604420.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/CMAKE_SIZEOF_DOUBLE.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_DOUBLE.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/CMAKE_SIZEOF_DOUBLE.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/CMAKE_SIZEOF_DOUBLE.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_DOUBLE.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/CMAKE_SIZEOF_DOUBLE.o
+
+Ld Debug/cmTryCompileExec3795604420 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/cmTryCompileExec3795604420.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3795604420.build/Objects-normal/x86_64/cmTryCompileExec3795604420_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3795604420
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2743143010" "-configuration" "Debug"
+2015-05-06 10:36:56.503 xcodebuild[93831:1500817]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fe252e6aaf0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fe252e6be00>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:56.522 xcodebuild[93831:1500809] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec2743143010"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec2743143010 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/cmTryCompileExec2743143010.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec2743143010 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/cmTryCompileExec2743143010.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2743143010.build/Objects-normal/x86_64/cmTryCompileExec2743143010_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2743143010
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2438033852" "-configuration" "Debug"
+2015-05-06 10:36:56.975 xcodebuild[93845:1500861]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fc7ce71be20>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fc7cbc34740>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:56.984 xcodebuild[93845:1500853] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec2438033852"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec2438033852 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/cmTryCompileExec2438033852.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec2438033852 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/cmTryCompileExec2438033852.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2438033852.build/Objects-normal/x86_64/cmTryCompileExec2438033852_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2438033852
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1370578769" "-configuration" "Debug"
+2015-05-06 10:36:57.494 xcodebuild[93859:1500898]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7fd11160c410>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7fd1150846e0>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:57.504 xcodebuild[93859:1500891] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1370578769"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec1370578769 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/cmTryCompileExec1370578769.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec1370578769 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/cmTryCompileExec1370578769.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1370578769.build/Objects-normal/x86_64/cmTryCompileExec1370578769_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1370578769
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3371364825" "-configuration" "Debug"
+2015-05-06 10:36:58.419 xcodebuild[93886:1500970]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f8fa15008f0>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f8fa3c1da90>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:58.428 xcodebuild[93886:1500963] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec3371364825"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec3371364825 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/cmTryCompileExec3371364825.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/CMAKE_SIZEOF_UNSIGNED_SHORT.o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/CMAKE_SIZEOF_UNSIGNED_SHORT.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/CMAKE_SIZEOF_UNSIGNED_SHORT.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/CMAKE_SIZEOF_UNSIGNED_SHORT.o
+
+Ld Debug/cmTryCompileExec3371364825 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/cmTryCompileExec3371364825.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3371364825.build/Objects-normal/x86_64/cmTryCompileExec3371364825_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3371364825
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/CMake.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1725249204" "-configuration" "Debug"
+2015-05-06 10:36:59.415 xcodebuild[93914:1501052]  DVTAssertions: Warning in /SourceCache/DVTiOSFrameworks/DVTiOSFrameworks-7536/DTDeviceKitBase/DTDKRemoteDeviceDataListener.m:79
+Details:  Running against an old version of MobileDevice; some interaction with proxied devices may be unavailable.
+Object:   <DTDKRemoteDeviceDataListener: 0x7f7fcb507a10>
+Method:   -listenerThreadImplementation
+Thread:   <NSThread: 0x7f7fcb50ff00>{number = 2, name = (null)}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+2015-05-06 10:36:59.425 xcodebuild[93914:1501045] warning:  The file reference for "CMakeLists.txt" is a member of multiple groups ("ALL_BUILD" and "cmTryCompileExec1725249204"); this indicates a malformed project.  Only the membership in one of the groups will be preserved (but membership in targets will be unaffected).  If you want a reference to the same file in more than one group, please add another reference to the same path.
+=== BUILD TARGET cmTryCompileExec1725249204 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64
+write-file /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/cmTryCompileExec1725249204.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/DerivedSources/x86_64 -I/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTryCompileExec1725249204 normal x86_64
+    cd /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -F/Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/cmTryCompileExec1725249204.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1725249204.build/Objects-normal/x86_64/cmTryCompileExec1725249204_dependency_info.dat -o /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1725249204
+
+** BUILD SUCCEEDED **
+
+
+File /Users/dillonl/Projects/gwiz/xcodebin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

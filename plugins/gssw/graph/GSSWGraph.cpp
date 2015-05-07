@@ -52,6 +52,7 @@ namespace gssw
 		Variant::SharedPtr variantPtr;
 		std::vector< gssw_node* > altAndRefVertices;
 
+
 		while (getNextCompoundVariant(variantPtr))
 		{
 			if (!variantPtr->processSV(this->m_reference_ptr)) { continue; }

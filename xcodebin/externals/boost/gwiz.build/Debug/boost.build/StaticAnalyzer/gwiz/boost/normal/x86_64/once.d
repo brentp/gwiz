@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/dillonl/Projects/gwiz/externals/boost/libs/thread/src/pthread/once.cpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/pthread/pthread_mutex_scoped_lock.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/assert.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/current_function.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/abi_prefix.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/user.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/select_compiler_config.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/compiler/clang.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/select_stdlib_config.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/no_tr1/utility.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/stdlib/libcpp.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/select_platform_config.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/platform/macos.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/posix_features.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/suffix.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/abi_suffix.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/once.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/detail/platform.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/config/requires_threads.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/pthread/once.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/detail/config.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/detail/workaround.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/thread/detail/delete.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/detail/no_exceptions_support.hpp \
+  /Users/dillonl/Projects/gwiz/externals/boost/boost/cstdint.hpp

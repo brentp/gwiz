@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              BE04ADFF0FCB44968493A8BB /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AEF8276A418748AEB2FD5532 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            6DB8C6336F7C44B7A4A4B2FE /* CMake Rules */,
+                     );
+                     dependencies = (
+                            49FC9F2944534F3E9C893B41 /* PBXTargetDependency */,
+                            73A84BE122F24AE78A8A20F4 /* PBXTargetDependency */,
+                            0AA1909661E549A69C8030D9 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              C3FB476523A2419D8D4E5AB3 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 90E3D1087E49467AAC5A6FAF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            E9325E01057E4665A2B8ED25 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              34AB1D0A16D14C7ABFF5AE62 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 26942860B7AD4B9C8DE45E9B /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            E6BE3127A4BA4715A93C62B3 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            8BEC93C87C0647C0899004DA /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+9656B9BECE6E44838E1CE84C /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+3F8B23D7586F470EB7866B2A /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 6329489AD3CA4A949F190B44 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest-all.cc */; settings = { COMPILER_FLAGS = ""; }; };
+8A7BB4749EE9487CA17D8384 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+566E2E84152C485B83448669 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 6526AF2A67FE4E298BCAECB0 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest_main.cc */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              A669D58CE37D4D4A9B18FC29 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              657FC2BADFED4B75AD0F03C5 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C50A86CC17E445A9814C7259 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              95A4E1A8AC974449BD448567 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              18F103B828B342D891245D52 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              CE61490C9366451FB33C0C65 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C3FB476523A2419D8D4E5AB3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              21B09E902FAC4BE7A7039CB9 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6BE381AD59C941649E07D647;
+                     remoteInfo = gtest_main;
+              };
+              EF242E132DC3471A87595606 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 260B8A42A5E4446286F65A70;
+                     remoteInfo = gtest;
+              };
+              DD44B124D6D24F1D9296F5E0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C3FB476523A2419D8D4E5AB3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              B1CC9249FA484A8FABEDC0A1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C3FB476523A2419D8D4E5AB3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9E9C79D298624C9EB771BC17 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 260B8A42A5E4446286F65A70;
+                     remoteInfo = gtest;
+              };
+              C240CF3A0A5D47478A483CB2 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 689CADA8078646D5BD230948 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BE04ADFF0FCB44968493A8BB;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+6329489AD3CA4A949F190B44 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+BD68705FEAB241F085A82B90 /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+6526AF2A67FE4E298BCAECB0 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest_main.cc"; path = "src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
+B331CA0828C94E18B3BC9F3C /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              5EA766D1C98E413E902A3F2D  = {
+                     isa = PBXGroup;
+                     children = (
+                            755695DD4EEE4FEEB8DC3455 /* Sources */,
+                            C4794AB4FE6449908BA722A2 /* Resources */,
+                            6BDFD0D533E44D2781123B08 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              755695DD4EEE4FEEB8DC3455 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D88D570D665F4977AE9FB0C8 /* ALL_BUILD */,
+                            B7E0B678FE484B65B93E0075 /* ZERO_CHECK */,
+                            48105CF8CB11408FB902A5F5 /* gtest */,
+                            EB03106EEC29480089BB2C04 /* gtest_main */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              C4794AB4FE6449908BA722A2 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              D88D570D665F4977AE9FB0C8 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C0A3295820E4435785A842DA /* CMake Rules */,
+                            D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              C0A3295820E4435785A842DA /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              B7E0B678FE484B65B93E0075 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            11788F00F4D349668153AF95 /* CMake Rules */,
+                            D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              11788F00F4D349668153AF95 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              48105CF8CB11408FB902A5F5 /* gtest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            259D28E289274C3E89B1DFA2 /* Source Files */,
+                            D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */,
+                     );
+                     name = gtest;
+                     sourceTree = "<group>";
+              };
+              259D28E289274C3E89B1DFA2 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6329489AD3CA4A949F190B44 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest-all.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              EB03106EEC29480089BB2C04 /* gtest_main */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D73FC2BFB3BA462F8D87CDF9 /* Source Files */,
+                            D579767739334A0BA5649848 /* /Users/dillonl/Projects/gwiz/externals/gtest/CMakeLists.txt */,
+                     );
+                     name = gtest_main;
+                     sourceTree = "<group>";
+              };
+              D73FC2BFB3BA462F8D87CDF9 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6526AF2A67FE4E298BCAECB0 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest_main.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              6BDFD0D533E44D2781123B08 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BD68705FEAB241F085A82B90 /* gtest */,
+                            B331CA0828C94E18B3BC9F3C /* gtest_main */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              260B8A42A5E4446286F65A70 /* gtest */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 238306DDAC544426A12D9C46 /* Build configuration list for PBXNativeTarget "gtest" */;
+                     buildPhases = (
+                            9742C8CF1B154C9FB1958099 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            300D6B3C8D804C1B8054E887 /* PBXTargetDependency */,
+                     );
+                     name = gtest;
+                     productName = gtest;
+                     productReference = BD68705FEAB241F085A82B90 /* gtest */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              6BE381AD59C941649E07D647 /* gtest_main */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 9FB631784FEC4B359CA9B087 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+                     buildPhases = (
+                            509F097B14B644179E45F3C6 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F18F6C35FF39473983F9A937 /* PBXTargetDependency */,
+                            04EC7A33CCCC4E7A8427C492 /* PBXTargetDependency */,
+                     );
+                     name = gtest_main;
+                     productName = gtest_main;
+                     productReference = B331CA0828C94E18B3BC9F3C /* gtest_main */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              689CADA8078646D5BD230948 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = E794D2ADD836456B82752794 /* Build configuration list for PBXProject  "gtest" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            657FC2BADFED4B75AD0F03C5 /* Debug */,
+                            C50A86CC17E445A9814C7259 /* Release */,
+                            95A4E1A8AC974449BD448567 /* MinSizeRel */,
+                            18F103B828B342D891245D52 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 5EA766D1C98E413E902A3F2D;
+                     projectDirPath = "../../../externals/gtest";
+                     projectRoot = "";
+                     targets = (
+                            BE04ADFF0FCB44968493A8BB /* ALL_BUILD */,
+                            C3FB476523A2419D8D4E5AB3 /* ZERO_CHECK */,
+                            260B8A42A5E4446286F65A70 /* gtest */,
+                            6BE381AD59C941649E07D647 /* gtest_main */,
+                            34AB1D0A16D14C7ABFF5AE62 /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              4494A1CB53EC4A269FC9416F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6DB8C6336F7C44B7A4A4B2FE /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest -f /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5B121F2D28FF41BA8165FFDD /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E9325E01057E4665A2B8ED25 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest -f /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8F9E36270FDF476F84F3F6DE /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E6BE3127A4BA4715A93C62B3 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest -f /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              9742C8CF1B154C9FB1958099 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            3F8B23D7586F470EB7866B2A /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest-all.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              509F097B14B644179E45F3C6 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            566E2E84152C485B83448669 /* /Users/dillonl/Projects/gwiz/externals/gtest/src/gtest_main.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              49FC9F2944534F3E9C893B41 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C3FB476523A2419D8D4E5AB3 /* ZERO_CHECK */;
+                     targetProxy = CE61490C9366451FB33C0C65 /* PBXContainerItemProxy */;
+              };
+              73A84BE122F24AE78A8A20F4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6BE381AD59C941649E07D647 /* gtest_main */;
+                     targetProxy = 21B09E902FAC4BE7A7039CB9 /* PBXContainerItemProxy */;
+              };
+              0AA1909661E549A69C8030D9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 260B8A42A5E4446286F65A70 /* gtest */;
+                     targetProxy = EF242E132DC3471A87595606 /* PBXContainerItemProxy */;
+              };
+              300D6B3C8D804C1B8054E887 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C3FB476523A2419D8D4E5AB3 /* ZERO_CHECK */;
+                     targetProxy = DD44B124D6D24F1D9296F5E0 /* PBXContainerItemProxy */;
+              };
+              F18F6C35FF39473983F9A937 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C3FB476523A2419D8D4E5AB3 /* ZERO_CHECK */;
+                     targetProxy = B1CC9249FA484A8FABEDC0A1 /* PBXContainerItemProxy */;
+              };
+              04EC7A33CCCC4E7A8427C492 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 260B8A42A5E4446286F65A70 /* gtest */;
+                     targetProxy = 9E9C79D298624C9EB771BC17 /* PBXContainerItemProxy */;
+              };
+              8BEC93C87C0647C0899004DA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BE04ADFF0FCB44968493A8BB /* ALL_BUILD */;
+                     targetProxy = C240CF3A0A5D47478A483CB2 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              63266E05D3A64D4A9F2520F6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/build;
+                     };
+                     name = Debug;
+              };
+              867C075FC07046D5A895BA40 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/build;
+                     };
+                     name = Release;
+              };
+              3615C20C2C1D4CA795E31960 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/build;
+                     };
+                     name = MinSizeRel;
+              };
+              EDD99AB5BCB6441A9B852379 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              E1F5EA060E124D4D8EC18A89 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              74F2F88E773541489D66FE32 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              31CAAEA5CDF64D889396C381 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              116BAD764EA5424293E03C84 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              332876FB59AA45F5AF400BDE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              437A8573EAD94CE996377712 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BD038B31EBAA4BD5B000A0F2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D6C0BD9900FB4EAABFEEC59D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E312F0DF34B84EB89CEEADCF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              67044B4588EB4354835DBF57 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              258642EEB1D641908F89C5A7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              F18C12B1FE60472996FE9808 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              36F0142A606B4F20B4A98B5F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              AD689339B9A94F68BCBB88FF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3FAFA5B76AE846109E309E24 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              136F88B934D9499AABD7F03F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F027B29D4FBB4C98B13FEA47 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              72DBDA53EB5A470289F20A10 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5269888992D346EAB7CAFC0C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              838D911EF59E46D9A2263C3C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dillonl/Projects/gwiz/include, /Users/dillonl/Projects/gwiz/config, /Users/dillonl/Projects/gwiz/externals, /Users/dillonl/Projects/gwiz/plugins, /Users/dillonl/Projects/gwiz, /Users/dillonl/Projects/gwiz/externals/gtest/include, /Users/dillonl/Projects/gwiz/externals/gtest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dillonl/Projects/gwiz/xcodebin/externals/gtest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              E794D2ADD836456B82752794 /* Build configuration list for PBXProject  "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            63266E05D3A64D4A9F2520F6 /* Debug */,
+                            867C075FC07046D5A895BA40 /* Release */,
+                            3615C20C2C1D4CA795E31960 /* MinSizeRel */,
+                            EDD99AB5BCB6441A9B852379 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AEF8276A418748AEB2FD5532 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E1F5EA060E124D4D8EC18A89 /* Debug */,
+                            74F2F88E773541489D66FE32 /* Release */,
+                            31CAAEA5CDF64D889396C381 /* MinSizeRel */,
+                            116BAD764EA5424293E03C84 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              90E3D1087E49467AAC5A6FAF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            332876FB59AA45F5AF400BDE /* Debug */,
+                            437A8573EAD94CE996377712 /* Release */,
+                            BD038B31EBAA4BD5B000A0F2 /* MinSizeRel */,
+                            D6C0BD9900FB4EAABFEEC59D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              238306DDAC544426A12D9C46 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E312F0DF34B84EB89CEEADCF /* Debug */,
+                            67044B4588EB4354835DBF57 /* Release */,
+                            258642EEB1D641908F89C5A7 /* MinSizeRel */,
+                            F18C12B1FE60472996FE9808 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9FB631784FEC4B359CA9B087 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            36F0142A606B4F20B4A98B5F /* Debug */,
+                            AD689339B9A94F68BCBB88FF /* Release */,
+                            3FAFA5B76AE846109E309E24 /* MinSizeRel */,
+                            136F88B934D9499AABD7F03F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              26942860B7AD4B9C8DE45E9B /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F027B29D4FBB4C98B13FEA47 /* Debug */,
+                            72DBDA53EB5A470289F20A10 /* Release */,
+                            5269888992D346EAB7CAFC0C /* MinSizeRel */,
+                            838D911EF59E46D9A2263C3C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 689CADA8078646D5BD230948;
+}
