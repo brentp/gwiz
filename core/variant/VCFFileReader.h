@@ -1,11 +1,11 @@
 #ifndef GWIZ_VCFFILEREADER_H
 #define GWIZ_VCFFILEREADER_H
 
-#include "core/utils/file/ASCIIFileReader.h"
-#include "core/variants/IVariantList.h"
+#include "core/file/ASCIIFileReader.h"
+#include "core/variant/IVariantList.h"
 
-#include "core/variants/VCFParser.hpp"
-#include "core/variants/ChromParser.hpp"
+#include "core/variant/VCFParser.hpp"
+#include "core/variant/ChromParser.hpp"
 #include "core/region/Region.h"
 
 #include "Variant.h"

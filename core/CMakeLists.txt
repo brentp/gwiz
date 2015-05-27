@@ -6,9 +6,12 @@ if (NOT "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang") # clang Doesnt use pthread
    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 endif()
 
-set(GWIZ_UTILS_SOURCES
-  utils/Parameters.cpp
-  utils/file/ASCIIFileReader.cpp
+set(GWIZ_UTIL_SOURCES
+  util/Parameters.cpp
+  )
+
+set(GWIZ_FILE_SOURCES
+  file/ASCIIFileReader.cpp
   )
 
 set(GWIZ_CORE_REFERENCE_SOURCES
@@ -20,20 +23,32 @@ set(GWIZ_CORE_REGION_SOURCES
   region/Region.cpp
   )
 
-set(GWIZ_CORE_ALIGNMENTS_SOURCES
-  alignments/BamAlignment.cpp
-  alignments/BamAlignmentReader.cpp
-  alignments/BamAlignmentReaderManager.cpp
-  alignments/BamAlignmentReaderPreload.cpp
-  alignments/BamAlignmentReaderPreloadManager.cpp
+set(GWIZ_CORE_ALIGNMENT_SOURCES
+  alignment/BamAlignment.cpp
+  alignment/BamAlignmentReader.cpp
+  alignment/BamAlignmentReaderManager.cpp
+  alignment/BamAlignmentReaderPreload.cpp
+  alignment/BamAlignmentReaderPreloadManager.cpp
   )
 
-set(GWIZ_CORE_VARIANTS_SOURCES
-  variants/Variant.cpp
-  variants/VariantListVCFPreloaded.cpp
-  variants/VCFFileReader.cpp
+set(GWIZ_CORE_VARIANT_SOURCES
+  variant/Variant.cpp
+  variant/VariantListVCFPreloaded.cpp
+  variant/VCFFileReader.cpp
   )
 
-add_library(gwiz_core ${GWIZ_UTILS_SOURCES} ${GWIZ_CORE_REFERENCE_SOURCES} ${GWIZ_CORE_REGION_SOURCES} ${GWIZ_CORE_ALIGNMENTS_SOURCES} ${GWIZ_CORE_VARIANTS_SOURCES})
+set(GWIZ_CORE_SEQUENCE_SOURCES
+  sequence/SequenceManager.cpp
+  )
+
+add_library(gwiz_core
+  ${GWIZ_FILE_SOURCES}
+  ${GWIZ_UTIL_SOURCES}
+  ${GWIZ_CORE_REFERENCE_SOURCES}
+  ${GWIZ_CORE_REGION_SOURCES}
+  ${GWIZ_CORE_ALIGNMENT_SOURCES}
+  ${GWIZ_CORE_VARIANT_SOURCES}
+  ${GWIZ_CORE_SEQUENCE_SOURCES}
+  )
 
 SET(CORE_LIB gwiz_core CACHE STRING "THE CORE LIBRARY") #add gwiz_core and gwiz_utils to the list of core libs

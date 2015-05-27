@@ -8,7 +8,7 @@
 #include <memory>
 #include <map>
 
-#include "core/alignments/IAlignment.h"
+#include "core/alignment/IAlignment.h"
 #include "IVariant.h"
 #include "VCFParser.hpp"
 #include "core/reference/Reference.h"

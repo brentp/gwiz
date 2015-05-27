@@ -12,6 +12,7 @@
 #include "BamAlignmentTests.hpp"
 #include "VariantListVCFPreloadedTests.hpp"
 */
+#include "SequenceManagerTests.hpp"
 
 #include "plugins/TestIncludes.h"
 

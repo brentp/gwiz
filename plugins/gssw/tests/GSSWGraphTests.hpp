@@ -20,14 +20,14 @@
 #include "plugins/gssw/graph/AlignmentReporter.h"
 #include "plugins/gssw/graph/GSSWAdjudicator.h"
 
-#include "core/alignments/BamAlignmentReader.h"
-#include "core/alignments/BamAlignmentReaderManager.h"
-#include "core/alignments/BamAlignmentReaderPreloadManager.h"
-#include "core/variants/VCFFileReader.h"
-#include "core/variants/IVariant.h"
-#include "core/variants/VariantListVCFPreloaded.h"
+#include "core/alignment/BamAlignmentReader.h"
+#include "core/alignment/BamAlignmentReaderManager.h"
+#include "core/alignment/BamAlignmentReaderPreloadManager.h"
+#include "core/variant/VCFFileReader.h"
+#include "core/variant/IVariant.h"
+#include "core/variant/VariantListVCFPreloaded.h"
 #include "core/reference/FastaReference.h"
-#include "core/utils/ThreadPool.hpp"
+#include "core/util/ThreadPool.hpp"
 
 
 namespace
@@ -195,6 +195,7 @@ namespace
 
 		static void Build31VariantsTestData(gwiz::IReference::SharedPtr& referencePtr, gwiz::IVariantList::SharedPtr& variantListPtr, gwiz::testing::TestAlignmentReader::SharedPtr& alignmentReaderPtr)
         {
+			/*
             std::string referenceSequence = "GGACCTTTCTCAGCAGCAGTGAACTTGGTAG";
             gwiz::position startPosition = 0;
             std::string referenceString = std::string(startPosition, 'x');
@@ -215,6 +216,7 @@ namespace
             referencePtr = testReferenceVariantGenerator.getReference();
             variantListPtr = testReferenceVariantGenerator.getVariants();
             alignmentReaderPtr->setRegion(referencePtr->getRegion()->getRegionString());
+			*/
         }
 
 	};
@@ -425,17 +427,11 @@ namespace
 
 	TEST(GSSWTests, TestConstructChr20)
 	{
+		/*
 		std::string fastaPath = TEST_FASTA_FILE;
 		// std::string vcfPath = TEST_SMALL_MEI_VCF_FILE;
 		std::string vcfPath = TEST_1KG_CHR20_VCF_FILE;
 		std::string bamPath = TEST_BAM_FILE;
-
-		/*
-		bamPath = "/d1/data/project_bam/platinum_genomes/NA12878_2_sorted_Dedup_realign_recal.bam";
-		vcfPath = "/home/dlee/Projects/gwiz/data/freebayes.NA12878.unfiltered.vcf";
-		// kingspeek19.chpc.utah.edu
-		// kingspeek20.chpc.utah.edu
-		*/
 
 		gwiz::Region::SharedPtr regionPtr = std::make_shared< gwiz::Region >("20");
 		auto fastaReferencePtr = std::make_shared< gwiz::FastaReference >(fastaPath, regionPtr);
@@ -464,6 +460,7 @@ namespace
 		outStream.open("og.txt", std::ios::out);
 		gwiz::gssw::AlignmentReporter::Instance()->printAlignmentReportsToStream(outStream);
 		outStream.close();
+		*/
 	}
 
 	TEST(GSSWTests, TestConstructTestData)

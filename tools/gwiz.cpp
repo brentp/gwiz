@@ -1,4 +1,4 @@
-#include "utils/Parameters.h"
+#include "util/Parameters.h"
 // #include "fastahack/Fasta.h"
 // #include "Variant.h"
 

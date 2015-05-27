@@ -5,7 +5,7 @@
 
 #include <memory>
 
-#include "core/utils/Types.h"
+#include "core/util/Types.h"
 
 namespace gwiz
 {

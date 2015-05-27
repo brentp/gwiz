@@ -1,7 +1,7 @@
 #ifndef GWIZ_TESTS_FILETESTS_HPP
 #define GWIZ_TESTS_FILETESTS_HPP
 
-#include "core/utils/file/ASCIIFileReader.h"
+#include "core/util/file/ASCIIFileReader.h"
 #include "TestConfig.h"
 
 TEST(ASCIIFileReaderTests, OpenValidFileTest)
